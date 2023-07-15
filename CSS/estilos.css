@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 234, 211);
+}
+header .seccionInicio {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+header .seccionInicio div {
+  width: 50%;
+  margin: 1%;
+  margin-left: 3%;
+}
+header .seccionInicio div img {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+header .seccionInicio nav {
+  width: 40%;
+}
+header .seccionInicio nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+header .seccionInicio nav ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  width: 100%;
+}
+header .seccionInicio nav ul li p {
+  padding-top: 30%;
+  margin-left: 10%;
+}
+
+main {
+  background-color: rgb(245, 245, 245);
+}
+main section {
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 3px solid black;
+}
+main section .Dire {
+  margin: 1px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=estilos.css.map */
