@@ -13,5 +13,33 @@ main
   {
     font-size: xx-large;
   }
+  .Info
+  {
+    div{
+      div{
+        border: $borde ;
+      }
+    }
+  }
+}
+.Tablas
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .TablaHijo  
+  {
+    border: $borde ;
+    margin-right:1%;
+    margin-left:1%;    
+  }
+  td{
+    padding: $pad;
+    border: $borde ;
+    align-items: center;
+  }
+  th{
+    @extend td
+  }
 }
 }

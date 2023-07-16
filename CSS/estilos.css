@@ -64,5 +64,23 @@ main section .Dire {
 main section p {
   font-size: xx-large;
 }
+main section .Info div div {
+  border: 1px solid black;
+}
+main .Tablas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .Tablas .TablaHijo {
+  border: 1px solid black;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+main .Tablas td, main .Tablas th {
+  padding: 8px;
+  border: 1px solid black;
+  align-items: center;
+}
 
 /*# sourceMappingURL=estilos.css.map */
