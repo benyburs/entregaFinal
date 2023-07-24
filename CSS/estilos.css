@@ -16,6 +16,8 @@ header {
 }
 header .seccionInicio {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 80%;
@@ -98,6 +100,27 @@ main .Tablas td, main .Tablas th {
   border: 1px solid black;
   align-items: center;
 }
+main #prod .card {
+  border: 3px solid black;
+  margin: 3px;
+}
+main #prod .card p {
+  font-size: 20px;
+}
+main #prod .card img {
+  height: 70%;
+  border: 1px solid black;
+}
+
+main form {
+  margin-bottom: 40px;
+}
+main form .boton:hover {
+  border: 5px solid rgb(184, 114, 22);
+  background-color: black;
+  color: azure;
+}
+
 footer {
   margin: 10px;
   background-color: black;
