@@ -18,7 +18,7 @@ header {
             border-radius: 10px;
         }
       }
-      nav {
+      div {
         width: 40%;
         ul {
           list-style: none;
@@ -37,6 +37,19 @@ header {
           }
         }
       }
+      .navegador
+      {
+        width: 70%;
+      }
 
+      ul{
+        width: 100%;
+        li{
+          width: 100%;
+          a{
+            width: 100%;
+          }
+        }
+      }
     }
   }

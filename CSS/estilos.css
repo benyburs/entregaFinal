@@ -30,23 +30,39 @@ header .seccionInicio div img {
   height: auto;
   border-radius: 10px;
 }
-header .seccionInicio nav {
+header .seccionInicio div {
   width: 40%;
 }
-header .seccionInicio nav ul {
+header .seccionInicio div ul {
   list-style: none;
   display: flex;
   width: 100%;
 }
-header .seccionInicio nav ul li {
+header .seccionInicio div ul li {
   display: flex;
   align-items: center;
   margin-right: 30px;
   width: 100%;
 }
-header .seccionInicio nav ul li p {
+header .seccionInicio div ul li p {
   padding-top: 30%;
   margin-left: 10%;
+}
+header .seccionInicio .navegador {
+  width: 70%;
+}
+header .seccionInicio ul {
+  width: 100%;
+}
+header .seccionInicio ul li {
+  width: 100%;
+}
+header .seccionInicio ul li a {
+  width: 100%;
+}
+
+.carrousel {
+  margin-top: 10px;
 }
 
 main {
@@ -81,6 +97,13 @@ main .Tablas td, main .Tablas th {
   padding: 8px;
   border: 1px solid black;
   align-items: center;
+}
+footer {
+  margin: 10px;
+  background-color: black;
+}
+footer p {
+  color: wheat;
 }
 
 /*# sourceMappingURL=estilos.css.map */
