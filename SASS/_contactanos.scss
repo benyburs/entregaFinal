@@ -1,12 +1,14 @@
 main
 {
-
-    form{
-        .boton:hover{
-          border: 5px solid rgb(184, 114, 22);
-          background-color: black;
-          color: azure;
-        }
-        margin-bottom:40px ;
-    }
+  .formulario
+  {
+     width: 50%;
+     margin-left: 20%;
+     .check{
+      color: #0000ff;
+     }
+     .check:hover{
+      text-decoration: underline;
+     }
+  }
 }

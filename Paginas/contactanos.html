@@ -78,7 +78,7 @@
                 <li>9494-4949</li>
             </ul>
         </div>
-        <div class="padreContact">
+        <!-- <div class="padreContact">
             <p>También nos poder mandar tu consulta por acá</p>
             <form action="form.php" method="POST" >
             <label for="">Nombre y Apellido del consultante</label>
@@ -88,6 +88,78 @@
             <label for="">Tu consulta</label>
             <textarea name="" id="" cols="30" rows="2" class="textarea" placeholder="Escribinos acá tu comentario/consulta"></textarea>
             <input type="submit" class="boton">
+          </form> 
+         </div>
+        -->
+          <div class="formulario">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Nombre</label>
+                <input type="name" class="form-control" id="inputPassword4" placeholder="Emiliano">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Apellido</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Gomez">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Av. Juan Bautista Alberdi 240">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="CABA">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control" >
+                  <option selected>Seleccione la provincia donde reside...</option>
+                  <option value="CABA">Ciudad Autónoma de Buenos Aires (CABA)</option>
+                  <option value="Buenos Aires">Buenos Aires</option>
+                  <option value="Catamarca">Catamarca</option>
+                  <option value="Chaco">Chaco</option>
+                  <option value="Chubut">Chubut</option>
+                  <option value="Córdoba">Córdoba</option>
+                  <option value="Corrientes">Corrientes</option>
+                  <option value="Entre Ríos">Entre Ríos</option>
+                  <option value="Formosa">Formosa</option>
+                  <option value="Jujuy">Jujuy</option>
+                  <option value="La Pampa">La Pampa</option>
+                  <option value="La Rioja">La Rioja</option>
+                  <option value="Mendoza">Mendoza</option>
+                  <option value="Misiones">Misiones</option>
+                  <option value="Neuquén">Neuquén</option>
+                  <option value="Río Negro">Río Negro</option>
+                  <option value="Salta">Salta</option>
+                  <option value="San Juan">San Juan</option>
+                  <option value="San Luis">San Luis</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+                  <option value="Santa Fe">Santa Fe</option>
+                  <option value="Santiago del Estero">Santiago del Estero</option>
+                  <option value="Tierra del Fuego">Tierra del Fuego</option>
+                  <option value="Tucumán">Tucumán</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Código postal</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="1049">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label check" for="gridCheck">
+                 Acepto recibir novedades de la empresa al mail proporcionado.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
     </main>

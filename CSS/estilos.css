@@ -82,7 +82,7 @@ main section .Dire {
 main section p {
   font-size: xx-large;
 }
-main section .Info div div {
+main section aa .Info div div {
   border: 1px solid black;
 }
 main .Tablas {
@@ -112,13 +112,15 @@ main #prod .card img {
   border: 1px solid black;
 }
 
-main form {
-  margin-bottom: 40px;
+main .formulario {
+  width: 50%;
+  margin-left: 20%;
 }
-main form .boton:hover {
-  border: 5px solid rgb(184, 114, 22);
-  background-color: black;
-  color: azure;
+main .formulario .check {
+  color: #0000ff;
+}
+main .formulario .check:hover {
+  text-decoration: underline;
 }
 
 footer {
