@@ -28,7 +28,7 @@ header .seccionInicio div {
   margin-left: 3%;
 }
 header .seccionInicio div img {
-  width: 20%;
+  width: 40%;
   height: auto;
   border-radius: 10px;
 }
@@ -63,6 +63,14 @@ header .seccionInicio ul li a {
   width: 100%;
 }
 
+@media only screen and (max-width: 500px) {
+  .seccionInicio {
+    color: red;
+  }
+  .seccionInicio div #i {
+    width: 70%;
+  }
+}
 .carrousel {
   margin-top: 10px;
 }
