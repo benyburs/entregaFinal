@@ -63,6 +63,16 @@ header {
         img{
           width: 100%;
         }
+        ul{
+          margin: 0;
+          li{
+            width: 17%;
+            margin: 4%;
+            p{
+              visibility: hidden;
+            }
+          }
+        }
       }
       .navegador{
         width: 20%;

@@ -67,6 +67,16 @@ header .seccionInicio ul li a {
   header .seccionInicio div img {
     width: 100%;
   }
+  header .seccionInicio div ul {
+    margin: 0;
+  }
+  header .seccionInicio div ul li {
+    width: 17%;
+    margin: 4%;
+  }
+  header .seccionInicio div ul li p {
+    visibility: hidden;
+  }
   header .seccionInicio .navegador {
     width: 20%;
   }
