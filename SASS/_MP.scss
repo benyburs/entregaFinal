@@ -12,7 +12,7 @@ main
   p
   {
     font-size: xx-large;
-  }aa
+  }
   .Info
   {
     div{
@@ -41,5 +41,24 @@ main
   th{
     @extend td
   }
+}
+}
+
+@media only screen and (max-width: 500px) 
+{ main{
+  .Info{
+    img{
+      width: 100%;
+    }
+  }
+ 
+  .Tablas {
+    display: flex;
+    flex-direction: column;
+    
+}
+.TablaHijo {
+  
+}
 }
 }

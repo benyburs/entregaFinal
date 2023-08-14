@@ -85,39 +85,6 @@ header .seccionInicio ul li a {
   margin-top: 10px;
 }
 
-main {
-  background-color: rgb(245, 245, 245);
-}
-main section {
-  margin-right: 10%;
-  margin-left: 10%;
-  border: 3px solid black;
-}
-main section .Dire {
-  margin: 1px;
-  border: 1px solid black;
-}
-main section p {
-  font-size: xx-large;
-}
-main section aa .Info div div {
-  border: 1px solid black;
-}
-main .Tablas {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-main .Tablas .TablaHijo {
-  border: 1px solid black;
-  margin-right: 1%;
-  margin-left: 1%;
-}
-main .Tablas td, main .Tablas th {
-  padding: 8px;
-  border: 1px solid black;
-  align-items: center;
-}
 main #prod .card {
   border: 3px solid black;
   margin: 3px;
@@ -141,6 +108,52 @@ main .formulario .check:hover {
   text-decoration: underline;
 }
 
+main .preg {
+  background-color: rgb(245, 245, 245);
+}
+
+main {
+  background-color: rgb(245, 245, 245);
+}
+main section {
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 3px solid black;
+}
+main section .Dire {
+  margin: 1px;
+  border: 1px solid black;
+}
+main section p {
+  font-size: xx-large;
+}
+main section .Info div div {
+  border: 1px solid black;
+}
+main .Tablas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .Tablas .TablaHijo {
+  border: 1px solid black;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+main .Tablas td, main .Tablas th {
+  padding: 8px;
+  border: 1px solid black;
+  align-items: center;
+}
+@media only screen and (max-width: 500px) {
+  main .Info img {
+    width: 100%;
+  }
+  main .Tablas {
+    display: flex;
+    flex-direction: column;
+  }
+}
 footer {
   margin: 10px;
   background-color: black;
